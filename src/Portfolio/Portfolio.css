@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.app__portfolio-main {
+	font-family: 'Roboto', sans-serif;
+	background: rgb(255, 255, 255);
+	background: radial-gradient(
+		circle,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(198, 198, 205, 1) 84%
+	);
+	font-size: 400px;
+}
+
+span {
+	text-transform: uppercase;
+	text-shadow: 10px 10px 10px rgb(91, 91, 91);
+	-moz-text-shadow: 10px 10px 10px rgb(91, 91, 91);
+	-webkit-text-shadow: 10px 10px 10px rgb(91, 91, 91);
+}
+
+.app__object-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.app__child-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-grow: 1;
+}
+
+.app_scene-start-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.app_scene-start-wrapper span {
+	position: absolute;
+	text-align: center;
+	font-size: 200px;
+	font-weight: bold;
+}
+
+.app_scene-one-wrapper span {
+	position: absolute;
+	text-align: center;
+	font-size: 200px;
+	font-weight: bold;
+}
+
+.app_scene-one-wrapper .logo-wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 75%;
+	display: flex;
+	gap: 20px;
+	left: 40px;
+	width: 100%;
+	align-items: center;
+}
+
+.app_scene-two-wrapper .logo-wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	left: 70px;
+}
+
+.app_scene-ending-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.app_scene-ending-wrapper span {
+	text-align: center;
+	font-weight: bold;
+}
+
+.app__scene-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 120px;
+	text-shadow: 10px 10px 10px rgb(255, 255, 255);
+	-moz-text-shadow: 10px 10px 10px rgb(255, 255, 255);
+	-webkit-text-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+
+.app__backgroubd-mask-1 {
+	position: absolute;
+	/* background-color: white; */
+	height: 400px;
+	width: 150%;
+	z-index: 1;
+	bottom: -100px;
+	right: 0;
+	box-shadow: 0px -4px 40px rgb(0 0 0);
+	transform: rotate(11.7deg);
+}
+
+.app__backgroubd-mask-2 {
+	position: absolute;
+	/* background-color: white; */
+	height: 595px;
+	width: 150%;
+	z-index: 1;
+	bottom: 102px;
+	right: 428px;
+	box-shadow: 0px -4px 40px rgb(0 0 0);
+	transform: rotate(60deg);
+}

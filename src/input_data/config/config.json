@@ -1,0 +1,21 @@
+{
+	"app": {
+		"font-family": "Roboto",
+		"background-color": "#fff",
+		"primary-color": "#313bac",
+		"secondary-color": "",
+		"mask-background-color": "#fff",
+		"font-color": "#313bac",
+		"font-size-small": "100px",
+		"font-size-medium": "130px",
+		"font-size-large": "160px",
+		"company-title": "Web Design & development",
+		"company-website": "https://website.com",
+		"company-contact-number": "+1 (256) 365 7145",
+		"scene-start-text": "what we are doing?",
+		"scene-one-text": "Web Design & development",
+		"scene-two-text": "Mobile Application",
+		"scene-three-text": "Social Media & Branding",
+		"scene-ending-text": "Together to success"
+	}
+}
